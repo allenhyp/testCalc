@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Core.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *mainDisplay;
+@property (strong, nonatomic) IBOutlet UILabel * opDispaly;
+
+- (IBAction)numberButton:(id)sender;
+- (IBAction)operatorButton:(id)sender;
+- (IBAction)equalTo:(id)sender;
 
 @end
 
